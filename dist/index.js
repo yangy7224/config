@@ -1,6 +1,9 @@
 /**
  * Created by yiyang1990 on 2019/1/4.
  */
+var process = process || {env: {
+        NODE_ENV: ''
+    }};
 
 class interfaceConfig {
   constructor(){
